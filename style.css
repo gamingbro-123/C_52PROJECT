@@ -1,0 +1,80 @@
+  
+  
+  
+  .header{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.menu{
+    display:flex;
+    margin: 50px;
+    justify-content:space-around;
+    padding: 1px;;
+    color: rgb(0, 255, 242);
+}
+.menu-items{
+    margin: 10px;
+    
+}
+
+.menu-items:hover{
+  margin-left: 18px;
+  border-bottom: solid green;
+  padding-bottom: 15px;
+}
+
+.grid img{
+    border:2px solid black;
+    border-radius: 10px;
+    background-color : cyan;
+
+
+}
+
+.Sports{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px;
+}
+
+.sports-image{
+position: relative;
+  padding: 10px;
+  margin: 50px;
+  width: 25%;
+  
+    
+}
+
+.sports-image p{
+  position: absolute;
+            top: 45%;
+            left: 15%;
+            transform: translate(10%,-50%);
+            opacity: 0;
+
+}
+
+.sports-image:hover p{
+  opacity: 1;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:50px;
+}
+
+.sports-image:hover img{
+  opacity: .33;
+}
+
+
+
+a:link{
+  color:white;
+  text-decoration: none;
+}
+
+a:visited{
+  color:cyan;
+}
+
+
